@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    width: 100%;
+    height: 550px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+
+}
+
+.text {
+    color: #c8c8c8;
+    /* font-size: larger; */
+    /* margin-bottom: 30px; */
+    font-family: "Manrope", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3em;
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+h3{
+    margin: 20px;
+}
+.container {
+    width: 950px;
+    display: flex;
+    min-height: 380px;
+
+    background: linear-gradient(to bottom right, rgb(228, 32, 32), rgb(51, 167, 181));
+
+}
+
+.img {
+    width: 50%;
+    position: relative;
+
+}
+
+.img img {
+    position: absolute;
+    width: 440px;
+    bottom: 0%;
+}
+
+.text-area {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.button {
+    display: flex;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    margin-top: 15px;
+    
+}
+
+.b1 {
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 17px;
+    font-family: "Manrope", Sans-serif;
+    color: black;
+    padding: 6px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 3px;
+}
+
+.b2 {
+    position: relative;
+    background-color: unset;
+    border: 1px solid white;
+    font-family: "Manrope", Sans-serif;
+    font-size: 17px;
+    color: #c8c8c8;
+    padding: 5px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width:780px) {
+    .text {
+        text-align: center;
+        /* padding: 20px 20px; */
+        /* margin-top: 20px; */
+
+    }
+
+    .main {
+        height: auto;
+        
+    }
+
+    .container {
+       
+        flex-direction: column;
+        width: 700px;
+        align-items: center;
+    }
+    .text-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+.img{
+    
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.img img{
+    position: unset;
+}
+
+}
